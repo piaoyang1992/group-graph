@@ -1,0 +1,350 @@
+
+
+=======2024-04-25 14:11:26=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: SerGINE
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+metric: CosineSimilarity
+fp_thr: 0.22
+fg_thr: 0.47
+margin: 1.0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+log_interval: 100
+checkpoint_interval: 10
+
+
+=======2024-04-25 14:14:40=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: SerGINE
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+metric: CosineSimilarity
+fp_thr: 0.22
+fg_thr: 0.47
+margin: 1.0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+log_interval: 100
+checkpoint_interval: 10
+
+
+=======2024-04-25 14:23:04=======
+
+=======Setting=======
+seed: 0
+cpu: False
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: SerGINE
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+metric: CosineSimilarity
+fp_thr: 0.22
+fg_thr: 0.47
+margin: 1.0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+log_interval: 100
+checkpoint_interval: 10
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cuda:0
+
+
+=======2024-04-25 15:02:32=======
+
+=======Setting=======
+seed: 0
+cpu: True
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: SerGINE
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+metric: CosineSimilarity
+fp_thr: 0.22
+fg_thr: 0.47
+margin: 1.0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+log_interval: 100
+checkpoint_interval: 10
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cpu
+Epoch 001
+Train loss: 0.01266768
+Epoch 002
+Train loss: 0.01064965
+Epoch 003
+Train loss: 0.01033315
+Epoch 004
+
+
+=======2024-04-25 17:08:48=======
+
+=======Setting=======
+seed: 0
+cpu: True
+gpu: 0
+data_dir: data/ZINC15
+save_root: pretrained_model_cl_zinc15_250k/
+gnn: SerGINE
+num_atom_layers: 3
+num_fg_layers: 2
+emb_dim: 128
+atom2fg_reduce: mean
+pool: mean
+dropout: 0
+metric: CosineSimilarity
+fp_thr: 0.22
+fg_thr: 0.47
+margin: 1.0
+batch_size: 512
+lr: 0.001
+num_epochs: 100
+log_interval: 100
+checkpoint_interval: 10
+train data num: 250000
+
+=======Pre-train Start=======
+Utilized device as cpu
+Epoch 001
+Train loss: 0.01266768
+Epoch 002
+Train loss: 0.01064965
+Epoch 003
+Train loss: 0.01033315
+Epoch 004
+Train loss: 0.01014864
+Epoch 005
+Train loss: 0.00999846
+Epoch 006
+Train loss: 0.00988526
+Epoch 007
+Train loss: 0.00979868
+Epoch 008
+Train loss: 0.00968612
+Epoch 009
+Train loss: 0.00960781
+Epoch 010
+Train loss: 0.00952603
+Epoch 011
+Train loss: 0.00944033
+Epoch 012
+Train loss: 0.00938640
+Epoch 013
+Train loss: 0.00930435
+Epoch 014
+Train loss: 0.00925559
+Epoch 015
+Train loss: 0.00916687
+Epoch 016
+Train loss: 0.00912437
+Epoch 017
+Train loss: 0.00906710
+Epoch 018
+Train loss: 0.00902879
+Epoch 019
+Train loss: 0.00896808
+Epoch 020
+Train loss: 0.00893674
+Epoch 021
+Train loss: 0.00889935
+Epoch 022
+Train loss: 0.00885313
+Epoch 023
+Train loss: 0.00881377
+Epoch 024
+Train loss: 0.00878407
+Epoch 025
+Train loss: 0.00874982
+Epoch 026
+Train loss: 0.00872751
+Epoch 027
+Train loss: 0.00869262
+Epoch 028
+Train loss: 0.00865945
+Epoch 029
+Train loss: 0.00865152
+Epoch 030
+Train loss: 0.00861972
+Epoch 031
+Train loss: 0.00858919
+Epoch 032
+Train loss: 0.00857733
+Epoch 033
+Train loss: 0.00855586
+Epoch 034
+Train loss: 0.00854092
+Epoch 035
+Train loss: 0.00852322
+Epoch 036
+Train loss: 0.00848230
+Epoch 037
+Train loss: 0.00848848
+Epoch 038
+Train loss: 0.00845843
+Epoch 039
+Train loss: 0.00844207
+Epoch 040
+Train loss: 0.00844027
+Epoch 041
+Train loss: 0.00842185
+Epoch 042
+Train loss: 0.00840988
+Epoch 043
+Train loss: 0.00838702
+Epoch 044
+Train loss: 0.00837291
+Epoch 045
+Train loss: 0.00835976
+Epoch 046
+Train loss: 0.00835220
+Epoch 047
+Train loss: 0.00833188
+Epoch 048
+Train loss: 0.00832463
+Epoch 049
+Train loss: 0.00831602
+Epoch 050
+Train loss: 0.00830990
+Epoch 051
+Train loss: 0.00828702
+Epoch 052
+Train loss: 0.00828356
+Epoch 053
+Train loss: 0.00827589
+Epoch 054
+Train loss: 0.00825330
+Epoch 055
+Train loss: 0.00826526
+Epoch 056
+Train loss: 0.00824315
+Epoch 057
+Train loss: 0.00822922
+Epoch 058
+Train loss: 0.00821538
+Epoch 059
+Train loss: 0.00822516
+Epoch 060
+Train loss: 0.00820680
+Epoch 061
+Train loss: 0.00819718
+Epoch 062
+Train loss: 0.00819628
+Epoch 063
+Train loss: 0.00818449
+Epoch 064
+Train loss: 0.00818355
+Epoch 065
+Train loss: 0.00816574
+Epoch 066
+Train loss: 0.00815454
+Epoch 067
+Train loss: 0.00814853
+Epoch 068
+Train loss: 0.00814160
+Epoch 069
+Train loss: 0.00813874
+Epoch 070
+Train loss: 0.00814033
+Epoch 071
+Train loss: 0.00812033
+Epoch 072
+Train loss: 0.00812887
+Epoch 073
+Train loss: 0.00811855
+Epoch 074
+Train loss: 0.00810524
+Epoch 075
+Train loss: 0.00811130
+Epoch 076
+Train loss: 0.00810057
+Epoch 077
+Train loss: 0.00809351
+Epoch 078
+Train loss: 0.00809571
+Epoch 079
+Train loss: 0.00807039
+Epoch 080
+Train loss: 0.00808704
+Epoch 081
+Train loss: 0.00808352
+Epoch 082
+Train loss: 0.00808061
+Epoch 083
+Train loss: 0.00806487
+Epoch 084
+Train loss: 0.00806958
+Epoch 085
+Train loss: 0.00805808
+Epoch 086
+Train loss: 0.00805475
+Epoch 087
+Train loss: 0.00805051
+Epoch 088
+Train loss: 0.00805184
+Epoch 089
+Train loss: 0.00803637
+Epoch 090
+Train loss: 0.00803651
+Epoch 091
+Train loss: 0.00803842
+Epoch 092
+Train loss: 0.00803531
+Epoch 093
+Train loss: 0.00802469
+Epoch 094
+Train loss: 0.00803129
+Epoch 095
+Train loss: 0.00802956
+Epoch 096
+Train loss: 0.00802126
+Epoch 097
+Train loss: 0.00802897
+Epoch 098
+Train loss: 0.00800889
+Epoch 099
+Train loss: 0.00801192
+Epoch 100
+Train loss: 0.00800403
+=======Pre-train Finish=======
